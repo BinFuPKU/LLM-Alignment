@@ -1,2 +1,23 @@
-# LLM-Safety-Alignment
-I have surveyed the latest work about LLM Safety Alignment, and the RLHF methods, including DPO, DPOP, IPO, ORPO. etc.
+# LLM-Alignment
+这两份报告对大语言模型对齐和对齐算法进行调研.
+
+
+## 大语言模型对齐调研
+
+
+
+## 对齐算法调研（主要为RLHF算法）
+### 离线强化学习
+#### DPO损失函数之各种变种：
+  铰链损失（SLIC）、二分类损失（KTO和BCO）、最小二乘损失（IPO）、放松KL约束（CPO）、反向KL散度（EXO）、正负优势比（ORPO）；
+  增强正例（ DPOP ）；
+  细粒度偏好-列表排序学习（LiPO-𝜆）；
+  正负偏好奖励差（ODPO和P3O）；
+  负偏好优化（NPO）。
+#### 学习策略：
+  课程学习（Curry-DPO）；
+  稳定训练-限制参数更新幅度（sDPO、TR-DPO）；
+#### 数据鲁棒性：
+  数据增强（DOVE和RPO）；
+  奖励模型和语言模型同时训练（ RLP ）。
+#### 多目标（多奖励，如安全）微调对齐：CDPO、 C-DPO和ALARM。
